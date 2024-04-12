@@ -19,7 +19,7 @@ const instructors = [
     },
     {
       id: 3,
-      name: 'Suraj Viswakarma',
+      name: 'Suraj Vishwakarma',
       designation: 'Frontend Dev',
       image:
         '/we/smartcraze.png',
