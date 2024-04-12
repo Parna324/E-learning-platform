@@ -10,7 +10,7 @@ function Footer() {
           StudySphere: Empowering aspiring coders to master
           the art of programming. Join our vibrant community
           and unlock your potential in the world of coding.
-            Start your journey today!
+          Start your journey today!
           </p>
         </div>
         <div>
