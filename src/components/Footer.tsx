@@ -7,9 +7,10 @@ function Footer() {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
           <p className="mb-4">
-            Music School is a premier institution dedicated to teaching the art
-            and science of music. We nurture talent from the ground up,
-            fostering a vibrant community of musicians.
+          StudySphere: Empowering aspiring coders to master
+          the art of programming. Join our vibrant community
+          and unlock your potential in the world of coding.
+            Start your journey today!
           </p>
         </div>
         <div>
