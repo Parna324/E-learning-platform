@@ -2,50 +2,49 @@
 import Link from "next/link"
 import { HoverEffect } from "./ui/card-hover-effect";
 
-function UpcomingWebinars() {
+function UpcomingCourses() {
 
-  const featuredWebinars = [
+  const featuredCourses = [
     {
-      title: 'Understanding Music Theory',
+      title: 'Introduction to Python Programming',
       description:
-        'Dive deep into the fundamentals of music theory and enhance your musical skills.',
-      slug: 'understanding-music-theory',
+        'Learn the fundamentals of Python programming language from scratch.',
+      slug: 'introduction-to-python-programming',
       isFeatured: true,
     },
     {
-      title: 'The Art of Songwriting',
+      title: 'Web Development Bootcamp',
       description:
-        'Learn the craft of songwriting from experienced musicians and songwriters.',
-      slug: 'the-art-of-songwriting',
+        'Build responsive and dynamic websites with HTML, CSS, and JavaScript.',
+      slug: 'web-development-bootcamp',
       isFeatured: true,
     },
     {
-      title: 'Mastering Your Instrument',
+      title: 'Data Science Fundamentals',
       description:
-        'Advanced techniques to master your musical instrument of choice.',
-      slug: 'mastering-your-instrument',
+        'Explore the principles of data analysis and machine learning with Python.',
+      slug: 'data-science-fundamentals',
       isFeatured: true,
     },
     {
-      title: 'Music Production Essentials',
+      title: 'Cybersecurity Essentials',
       description:
-        'Get started with music production with this comprehensive overview.',
-      slug: 'music-production-essentials',
-      isFeatured: true,
-    },
-    // Added two more webinars
-    {
-      title: 'Live Performance Techniques',
-      description:
-        'Enhance your live performance skills with expert tips and strategies.',
-      slug: 'live-performance-techniques',
+        'Understand the basics of cybersecurity and learn how to protect against cyber threats.',
+      slug: 'cybersecurity-essentials',
       isFeatured: true,
     },
     {
-      title: 'Digital Music Marketing',
+      title: 'UI/UX Design Principles',
       description:
-        'Learn how to promote your music effectively in the digital age.',
-      slug: 'digital-music-marketing',
+        'Master the principles of user interface and user experience design for digital products.',
+      slug: 'ui-ux-design-principles',
+      isFeatured: true,
+    },
+    {
+      title: 'Digital Marketing Strategies',
+      description:
+        'Learn effective digital marketing strategies to promote products and services online.',
+      slug: 'digital-marketing-strategies',
       isFeatured: true,
     },
   ];
@@ -54,16 +53,16 @@ function UpcomingWebinars() {
     <div className="p-12 bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center">
-          <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">FEATURED WEBINARS</h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">Enhance Your Musical Journey</p>
+          <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">FEATURED COURSES</h2>
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">Advance Your Skills with Our E-Learning Courses</p>
         </div>
 
         <div className="mt-10">
           <HoverEffect
-          items={featuredWebinars.map(webinar => (
+          items={featuredCourses.map(course => (
             {
-              title: webinar.title,
-              description: webinar.description,
+              title: course.title,
+              description: course.description,
               link: '/'
             }
           ))}
@@ -74,7 +73,7 @@ function UpcomingWebinars() {
           <Link href={"/"}
           className="px-4 py-2 rounded border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200"
           >
-            View All webinars
+            View All Courses
           </Link>
         </div>
       </div>
@@ -82,4 +81,4 @@ function UpcomingWebinars() {
   )
 }
 
-export default UpcomingWebinars
+export default UpcomingCourses;
