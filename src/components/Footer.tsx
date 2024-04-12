@@ -26,7 +26,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="#"
+                href="./"
                 className="hover:text-white transition-colors duration-300"
               >
                 About
@@ -34,7 +34,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="#"
+                href="/courses"
                 className="hover:text-white transition-colors duration-300"
               >
                 Courses
@@ -42,7 +42,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="#"
+                href="/contact"
                 className="hover:text-white transition-colors duration-300"
               >
                 Contact
@@ -54,19 +54,19 @@ function Footer() {
           <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
           <div className="flex space-x-4">
             <a
-              href="#"
+              href="https://www.facebook.com/"
               className="hover:text-white transition-colors duration-300"
             >
               Facebook
             </a>
             <a
-              href="#"
+              href="https://twitter.com/"
               className="hover:text-white transition-colors duration-300"
             >
               Twitter
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/"
               className="hover:text-white transition-colors duration-300"
             >
               Instagram
@@ -75,13 +75,13 @@ function Footer() {
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
-          <p>New Delhi, India</p>
+          <p>Phagwara, India</p>
           <p>Delhi 10001</p>
-          <p>Email: info@musicschool.com</p>
-          <p>Phone: (123) 456-7890</p>
+          <p>Email: info@StudySphere.com</p>
+          <p>Phone: (180) 123-7890</p>
         </div>
         </div>
-        <p className="text-center text-xs pt-8">© 2024 Music School. All rights reserved.</p>
+        <p className="text-center text-xs pt-8">© 2024 StudySphere. All Rights Reserved.</p>
     </footer>
   )
 }
