@@ -1,38 +1,39 @@
 'use client'
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
-const musicSchoolTestimonials = [
-    {
-      quote:
-        'Joining the music school transformed my understanding of music and helped me to truly discover my own sound. The instructors are world-class!',
-      name: 'Alex Johnson',
-      title: 'Guitar Student',
-    },
-    {
-      quote:
-        "The community and support at this school are unmatched. I've grown not just as a pianist, but also as a performer, thanks to their comprehensive approach.",
-      name: 'Samantha Lee',
-      title: 'Piano Student',
-    },
-    {
-      quote:
-        "This school offered me the tools and confidence to take my singing to the next level. I'm endlessly grateful for the personalized coaching.",
-      name: 'Michael Chen',
-      title: 'Vocal Student',
-    },
-    {
-      quote:
-        'As a violinist, finding the right mentor can be challenging, but this school matched me with a teacher who truly understands my goals and challenges.',
-      name: 'Emily Taylor',
-      title: 'Violin Student',
-    },
-    {
-      quote:
-        'The production courses here opened my eyes to the intricacies of music production. Highly recommend for any aspiring producers!',
-      name: 'Chris Morales',
-      title: 'Music Production Student',
-    },
-  ];
+const eLearningTestimonials = [
+  {
+    quote:
+      'The technical courses on this e-learning platform have been invaluable in my career development. The instructors provide clear explanations and practical examples that make complex concepts easy to understand.',
+    name: 'Sarah Johnson',
+    title: 'Software Engineering Student',
+  },
+  {
+    quote:
+      "I've greatly benefited from the cybersecurity courses offered here. The hands-on labs and real-world scenarios helped me apply theoretical knowledge to practical situations, making me feel confident in my skills.",
+    name: 'David Smith',
+    title: 'Cybersecurity Student',
+  },
+  {
+    quote:
+      "The web development courses on this platform exceeded my expectations. The interactive lessons and projects allowed me to build real-world applications while learning new concepts.",
+    name: 'Jessica Williams',
+    title: 'Web Development Student',
+  },
+  {
+    quote:
+      'The data science program here provided me with a solid foundation in data analysis and machine learning. The course material is comprehensive, and the instructors are knowledgeable and supportive.',
+    name: 'Michael Brown',
+    title: 'Data Science Student',
+  },
+  {
+    quote:
+      'Im impressed by the artificial intelligence courses on this platform. The content is up-to-date, and the practical exercises helped me develop skills that are directly applicable in the field.',
+    name: 'Emily Chen',
+    title: 'Artificial Intelligence Student',
+  },
+];
+
 
 function MusicSchoolTestimonials() {
   return (
@@ -41,7 +42,7 @@ function MusicSchoolTestimonials() {
         <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8">
             <div className="w-full max-w-6xl">
             <InfiniteMovingCards
-                items={musicSchoolTestimonials}
+                items={eLearningTestimonials}
                 direction="right"
                 speed="slow"
       />
