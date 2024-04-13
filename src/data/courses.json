@@ -8,7 +8,8 @@
       "price": 99.99,
       "instructor": "John Doe",
       "isFeatured": true,
-      "image": "/courses/python.avif"
+      "image": "/courses/python.avif",
+      "url": "https://www.youtube.com/watch?v=kqtD5dpn9C8&pp=ygUgcHl0aG9uIHByb2dyYW1taW5nIGZvciBiZWdpbm5lcnM%3D"
     },
     {
       "id": 2,

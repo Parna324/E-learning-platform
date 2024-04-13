@@ -35,20 +35,23 @@ function page() {
                     />
                   </CardItem>
                   <div className="flex justify-between items-center mt-20">
+                    <a href={course.url} target="_blank">
                     <CardItem
                       translateZ={20}
                       as="button"
                       className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                     >
-                      Try now →
+                      Check now →
+
                     </CardItem>
-                    <CardItem
+                      </a>
+                    {/* <CardItem
                       translateZ={20}
                       as="button"
                       className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                     >
-                      Sign up
-                    </CardItem>
+                      
+                    </CardItem> */}
                   </div>
                 </CardBody>
               </CardContainer>
