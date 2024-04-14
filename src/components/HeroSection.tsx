@@ -15,8 +15,8 @@ function HeroSection() {
             Master Your Skills with StudySphere
           </h1>
           <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
-            "Educate, Engage, Excel: Building an Interactive E-Learning Platform
-            for Self-Paced Learning"
+            Educate, Engage, Excel: Building an Interactive E-Learning Platform
+            for Self-Paced Learning
           </p>
           <div className="mt-4">
             <Link href={"/courses"}>
